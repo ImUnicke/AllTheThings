@@ -95,101 +95,131 @@ _.Zones =
 						q(40678),	-- Twisted Power
 						q(43526),	-- A True Test
 						q(40603),	-- Seeking the Valkyra
-						q(40608),	-- The Mark
+						q(40608, {	-- The Mark
+							["sourceQuest"] = 40603,	-- Seeking the Valkyra
+							["provider"] = { "n", 100738 },	-- Ashildir
+							["coord"] = { 62.7, 68.1, 634 },
+							["maps"] = { 634 },	-- Stormheim					
+						}),
+						q(40613, {	-- Maw of Souls: Retrieving the Svalnguard
+							["sourceQuest"] = 40608,	-- The Mark
+							["provider"] = { "n", 100738 },	-- Ashildir
+							["coord"] = { 62.7, 68.1, 634 },
+							["maps"] = { 634 },	-- Stormheim					
+						}),
+						q(40614, {	-- A Feast Fit for Odyn
+							["sourceQuest"] = 40613,	-- The Mark
+							["provider"] = { "n", 100738 },	-- Ashildir
+							["coord"] = { 62.7, 68.1, 634 },
+							["maps"] = { 634 },	-- Stormheim					
+						}),
+						q(40672, {	-- Neltharion's Lair: Presentation is Key
+							["sourceQuest"] = 40613,	-- The Mark
+							["provider"] = { "n", 100738 },	-- Ashildir
+							["coord"] = { 62.7, 68.1, 634 },
+							["maps"] = { 634 },	-- Stormheim					
+						}),
 						q(43898),	-- Preparing to Move
-						q(40613),	-- Maw of Souls: Retrieving the Svalnguard
-						q(40614),	-- A Feast Fit for Odyn
-						q(40672),	-- Neltharion's Lair: Presentation is Key
 						q(40615),	-- Halls of Valor: Odyn's Blessing
 						q(43528),	-- Planning the Assault NOTE: This quest was removed when The Nighthold opened
 						q(43531),	-- Into the Nighthold
 						q(43530),	-- The Nighthold: Delusions of Grandeur
 						q(43532),	-- The Nighthold: Darkness Calls
-						q(43533, {	-- Balance of Power
-							cl(1, {
-							  ["g"] = {
-								artifact(805),
-								artifact(669),
-								artifact(164),
-							  }
-							  }),
-							cl(2, {
-							  ["g"] = {
-								artifact(16),
-								artifact(545),
-								artifact(856),
-							  }
-							}),
-							cl(3, {
-							  ["g"] = {
-								artifact(219),
-								artifact(462),
-								artifact(481),
-							  }
-							}),
-							cl(4, {
-							  ["g"] = {
-								artifact(237),
-								artifact(765),
-								artifact(71),
-							  }
-							}),
-							cl(5, {
-							  ["g"] = {
-								artifact(735),
-								artifact(753),
-								artifact(255),
-							  }
-							}),
-							cl(6, {
-							  ["g"] = {
-								artifact(368),
-								artifact(371),
-								artifact(403),
-							  }
-							}),
-							cl(7, {
-							  ["g"] = {
-								artifact(310),
-								artifact(682),
-								artifact(781),
-							  }
-							}),
-							cl(8, {
-							  ["g"] = {
-								artifact(184),
-								artifact(499),
-								artifact(134),
-							  }
-							}),
-							cl(9, {
-							  ["g"] = {
-								artifact(198),
-								artifact(329),
-								artifact(818),
-							  }
-							}),
-							cl(10, {
-							  ["g"] = {
-								artifact(517),
-								artifact(348),
-								artifact(525),
-							  }
-							}),
-							cl(11, {
-							  ["g"] = {
-								artifact(419),
-								artifact(54),
-								artifact(434),
-								artifact(277),
-							  }
-							}),
-							cl(12, {
-							  ["g"] = {
-								artifact(36),
-								artifact(563),
-							  }
-							}),
+						q(43533, { 	-- Balance of Power
+							["sourceQuests"] = {
+												43530,	-- The Nighthold: Delusions of Grandeur
+												43531,	-- Into the Nighthold
+												43532,	-- The Nighthold: Darkness Calls
+												},
+							["provider"] = { "n", 111826 },	-- Archmage Kalec
+							-- ["coord"] = { 62.7, 68.1, 634 },
+							-- ["maps"] = { 634 },	-- Stormheim		
+							["g"] = {	
+								cl(1, {
+								  ["g"] = {
+									artifact(805),
+									artifact(669),
+									artifact(164),
+								  }
+								  }),
+								cl(2, {
+								  ["g"] = {
+									artifact(16),
+									artifact(545),
+									artifact(856),
+								  }
+								}),
+								cl(3, {
+								  ["g"] = {
+									artifact(219),
+									artifact(462),
+									artifact(481),
+								  }
+								}),
+								cl(4, {
+								  ["g"] = {
+									artifact(237),
+									artifact(765),
+									artifact(71),
+								  }
+								}),
+								cl(5, {
+								  ["g"] = {
+									artifact(735),
+									artifact(753),
+									artifact(255),
+								  }
+								}),
+								cl(6, {
+								  ["g"] = {
+									artifact(368),
+									artifact(371),
+									artifact(403),
+								  }
+								}),
+								cl(7, {
+								  ["g"] = {
+									artifact(310),
+									artifact(682),
+									artifact(781),
+								  }
+								}),
+								cl(8, {
+								  ["g"] = {
+									artifact(184),
+									artifact(499),
+									artifact(134),
+								  }
+								}),
+								cl(9, {
+								  ["g"] = {
+									artifact(198),
+									artifact(329),
+									artifact(818),
+								  }
+								}),
+								cl(10, {
+								  ["g"] = {
+									artifact(517),
+									artifact(348),
+									artifact(525),
+								  }
+								}),
+								cl(11, {
+								  ["g"] = {
+									artifact(419),
+									artifact(54),
+									artifact(434),
+									artifact(277),
+								  }
+								}),
+								cl(12, {
+								  ["g"] = {
+									artifact(36),
+									artifact(563),
+								  }
+								}),
+							},
 						}),
 					},
 				}),
