@@ -9,7 +9,7 @@ _.ExpansionFeatures =
 				garrisonBuilding(67,  {	-- Stables (rank 1: 65, rank 2: 66, rank 3: 67)
 					["races"] = HORDE_ONLY,
 					["g"] = {
-						n(ACHIEVEMENTS, {	-- Achievements
+						n(-4, {	-- Achievements
 							ach(9705, {	-- Advanced Husbandry (Horde)
 								i(116668),		-- Armored Frostboar
 								crit(1),		-- Maimclaw Killed
@@ -50,278 +50,286 @@ _.ExpansionFeatures =
 								crit(6),		-- Karak Killed
 							}),
 						}),
-						n(QUESTS, bubbleDown({ ["races"] = HORDE_ONLY }, {
+						n(QUESTS, {
 							q(36944, {	-- Besting a Boar
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
+								["races"] = HORDE_ONLY,
 							}),
 							q(37034, {	-- Boar Training: Bulbapore
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37033,	-- Boar Training: Gezz'ran
+								["races"] = HORDE_ONLY,
 							}),
 							q(37035, {	-- Boar Training: Cruel Ogres
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37034,	-- Boar Training: Bulbapore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37036, {	-- Boar Training: Darkwing Roc
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37035,	-- Boar Training: Cruel Ogres
+								["races"] = HORDE_ONLY,
 							}),
 							q(37033, {	-- Boar Training: Gezz'ran
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37032,	-- Boar Training: Riplash
+								["races"] = HORDE_ONLY,
 							}),
 							q(37039, {	-- Boar Training: Ironbore
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37038,	-- Boar Training: Thundercall
+								["races"] = HORDE_ONLY,
 							}),
 							q(37037, {	-- Boar Training: Moth of Wrath
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37036,	-- Boar Training: Darkwing Roc
+								["races"] = HORDE_ONLY,
 							}),
 							q(37040, {	-- Boar Training: Orc Hunters
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37039,	-- Boar Training: Ironbore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37032, {	-- Boar Training: Riplash
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 36944,	-- Besting a Boar
+								["races"] = HORDE_ONLY,
 							}),
 							q(37041, {	-- Boar Training: The Garn
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37040,	-- Boar Training: Orc Hunters
+								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(116675),	-- Trained Rocktusk
 								},
 							}),
 							q(37038, {	-- Boar Training: Thundercall
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37037,	-- Boar Training: Moth of Wrath
+								["races"] = HORDE_ONLY,
 							}),
 							q(36912, {	-- Capturing a Clefthoof
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
+								["races"] = HORDE_ONLY,
 							}),
 							q(37052, {	-- Clefthoof Training: Bulbapore
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37051,	-- Clefthoof Training: Gezz'ran
+								["races"] = HORDE_ONLY,
 							}),
 							q(37053, {	-- Clefthoof Training: Cruel Ogres
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37052,	-- Clefthoof Training: Bulbapore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37054, {	-- Clefthoof Training: Darkwing Roc
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37053,	-- Clefthoof Training: Cruel Ogres
+								["races"] = HORDE_ONLY,
 							}),
 							q(37051, {	-- Clefthoof Training: Gezz'ran
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37050,	-- Clefthoof Training: Riplash
+								["races"] = HORDE_ONLY,
 							}),
 							q(37048, {	-- Clefthoof Training: Great-Tusk
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 36912,	-- Capturing a Clefthoof
+								["races"] = HORDE_ONLY,
 							}),
 							q(37057, {	-- Clefthoof Training: Ironbore
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37056,	-- Clefthoof Training: Thundercall
+								["races"] = HORDE_ONLY,
 							}),
 							q(37055, {	-- Clefthoof Training: Moth of Wrath
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37054,	-- Clefthoof Training: Darkwing Roc
+								["races"] = HORDE_ONLY,
 							}),
 							q(37058, {	-- Clefthoof Training: Orc Hunters
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37057,	-- Clefthoof Training: Ironbore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37049, {	-- Clefthoof Training: Rakkiri
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37048,	-- Clefthoof Training: Great-Tusk
+								["races"] = HORDE_ONLY,
 							}),
 							q(37050, {	-- Clefthoof Training: Riplash
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37049,	-- Clefthoof Training: Rakkiri
+								["races"] = HORDE_ONLY,
 							}),
 							q(37059, {	-- Clefthoof Training: The Garn
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37058,	-- Clefthoof Training: Orc Hunters
+								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(116656),	-- Trained Icehoof
 								},
 							}),
 							q(37056, {	-- Clefthoof Training: Thundercall
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37055,	-- Clefthoof Training: Moth of Wrath
+								["races"] = HORDE_ONLY,
 							}),
 							q(37063, {	-- Elekk Training: Cruel Ogres
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 36946,	-- Entangling an Elekk
+								["races"] = HORDE_ONLY,
 							}),
 							q(37064, {	-- Elekk Training: Darkwing Roc
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37063,	-- Elekk Training: Cruel Ogres
+								["races"] = HORDE_ONLY,
 							}),
 							q(37067, {	-- Elekk Training: Ironbore
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37066,	-- Elekk Training: Thundercall
+								["races"] = HORDE_ONLY,
 							}),
 							q(37065, {	-- Elekk Training: Moth of Wrath
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37064,	-- Elekk Training: Darkwing Roc
+								["races"] = HORDE_ONLY,
 							}),
 							q(37068, {	-- Elekk Training: Orc Hunters
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37067,	-- Elekk Training: Ironbore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37069, {	-- Elekk Training: The Garn
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37068,	-- Elekk Training: Orc Hunters
+								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(116662),	-- Trained Meadowstomper
 								},
 							}),
 							q(37066, {	-- Elekk Training: Thundercall
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
-								["sourceQuest"] = 37065,	-- Elekk Training: Moth of Wrath
+								["races"] = HORDE_ONLY,
 							}),
 							q(36946, {	-- Entangling an Elekk
 								["provider"] = { "n", 86979 },	-- Tormak the Scarred
+								["races"] = HORDE_ONLY,
 							}),
 							q(36945, {	-- Requisition a Riverbeast
 								["provider"] = { "n", 87242 },	-- Sage Paluna
+								["races"] = HORDE_ONLY,
 							}),
 							q(37072, {	-- Riverbeast Training: Bulbapore
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37071,	-- Riverbeast Training: Gezz'ran
+								["races"] = HORDE_ONLY,
 							}),
 							q(37073, {	-- Riverbeast Training: Cruel Ogres
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37072,	-- Riverbeast Training: Bulbapore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37074, {	-- Riverbeast Training: Darkwing Roc
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37073,	-- Riverbeast Training: Cruel Ogres
+								["races"] = HORDE_ONLY,
 							}),
 							q(37071, {	-- Riverbeast Training: Gezz'ran
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 36945,	-- Requisition a Riverbeast
+								["races"] = HORDE_ONLY,
 							}),
 							q(37077, {	-- Riverbeast Training: Ironbore
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37076,	-- Riverbeast Training: Thundercall
+								["races"] = HORDE_ONLY,
 							}),
 							q(37075, {	-- Riverbeast Training: Moth of Wrath
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37074,	-- Riverbeast Training: Darkwing Roc
+								["races"] = HORDE_ONLY,
 							}),
 							q(37078, {	-- Riverbeast Training: Orc Hunters
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37077,	-- Riverbeast Training: Ironbore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37079, {	-- Riverbeast Training: The Garn
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37078,	-- Riverbeast Training: Orc Hunters
+								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(116676),	-- Trained Riverwallow
 								},
 							}),
 							q(37076, {	-- Riverbeast Training: Thundercall
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37075,	-- Riverbeast Training: Moth of Wrath
+								["races"] = HORDE_ONLY,
 							}),
 							q(37097, {	-- Talbuk Training: Bulbapore
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37096,	-- Talbuk Training: Gezz'ran
+								["races"] = HORDE_ONLY,
 							}),
 							q(37098, {	-- Talbuk Training: Cruel Ogres
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37097,	-- Talbuk Training: Bulbapore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37099, {	-- Talbuk Training: Darkwing Roc
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37098,	-- Talbuk Training: Cruel Ogres
+								["races"] = HORDE_ONLY,
 							}),
 							q(37096, {	-- Talbuk Training: Gezz'ran
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37095,	-- Talbuk Training: Riplash
+								["races"] = HORDE_ONLY,
 							}),
 							q(37093, {	-- Talbuk Training: Great-Tusk
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 36917,	-- Taming a Talbuk
+								["races"] = HORDE_ONLY,
 							}),
 							q(37102, {	-- Talbuk Training: Ironbore
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37101,	-- Talbuk Training: Thundercall
+								["races"] = HORDE_ONLY,
 							}),
 							q(37100, {	-- Talbuk Training: Moth of Wrath
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37099,	-- Talbuk Training: Darkwing Roc
+								["races"] = HORDE_ONLY,
 							}),
 							q(37103, {	-- Talbuk Training: Orc Hunters
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37102,	-- Talbuk Training: Ironbore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37094, {	-- Talbuk Training: Rakkiri
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37093,	-- Talbuk Training: Great-Tusk
+								["races"] = HORDE_ONLY,
 							}),
 							q(37095, {	-- Talbuk Training: Riplash
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37094,	-- Talbuk Training: Rakkiri
+								["races"] = HORDE_ONLY,
 							}),
 							q(37104, {	-- Talbuk Training: The Garn
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37103,	-- Talbuk Training: Orc Hunters
+								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(116774),	-- Trained Silverpelt
 								},
 							}),
 							q(37101, {	-- Talbuk Training: Thundercall
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37100,	-- Talbuk Training: Moth of Wrath
+								["races"] = HORDE_ONLY,
 							}),
 							q(36917, {	-- Taming a Talbuk
 								["provider"] = { "n", 87242 },	-- Sage Paluna
+								["races"] = HORDE_ONLY,
 							}),
 							q(37124, {	-- Teeth of a Predator
 								["provider"] = { "n", 87242 },	-- Sage Paluna
+								["races"] = HORDE_ONLY,
 							}),
 							q(37123, {	-- The Black Claw
 								["provider"] = { "n", 87242 },	-- Sage Paluna
+								["races"] = HORDE_ONLY,
 							}),
 							q(37105, {	-- Wolf Training: Cruel Ogres
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 36950,	-- Wrangling a Wolf
+								["races"] = HORDE_ONLY,
 							}),
 							q(37106, {	-- Wolf Training: Darkwing Roc
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37105,	-- Wolf Training: Cruel Ogres
+								["races"] = HORDE_ONLY,
 							}),
 							q(37109, {	-- Wolf Training: Ironbore
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37108,	-- Wolf Training: Thundercall
+								["races"] = HORDE_ONLY,
 							}),
 							q(37107, {	-- Wolf Training: Moth of Wrath
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37106,	-- Wolf Training: Darkwing Roc
+								["races"] = HORDE_ONLY,
 							}),
 							q(37110, {	-- Wolf Training: Orc Hunters
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37109,	-- Wolf Training: Ironbore
+								["races"] = HORDE_ONLY,
 							}),
 							q(37111, {	-- Wolf Training: The Garn
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37110,	-- Wolf Training: Orc Hunters
+								["races"] = HORDE_ONLY,
 								["g"] = {
 									i(116784),	-- Trained Snarler
 								},
 							}),
 							q(37108, {	-- Wolf Training: Thundercall
 								["provider"] = { "n", 87242 },	-- Sage Paluna
-								["sourceQuest"] = 37107,	-- Wolf Training: Moth of Wrath
+								["races"] = HORDE_ONLY,
 							}),
 							q(36950, {	-- Wrangling a Wolf
 								["provider"] = { "n", 87242 },	-- Sage Paluna
+								["races"] = HORDE_ONLY,
 							}),
-						})),
+						}),
 					},
 				}),
 			}),
