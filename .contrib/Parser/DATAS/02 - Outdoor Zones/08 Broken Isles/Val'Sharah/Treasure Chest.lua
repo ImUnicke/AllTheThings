@@ -16,7 +16,11 @@ _.Zones =
 				}),
 				o(240655, {	-- Glimmering Treasure Chest
 					["questID"] = 38390,
-					["coord"] = { 54.0, 34.9, 641 },
+					["coords"] = {
+						{ 54.0, 34.9, 641 },
+						{ 53.3, 38.1, 641 },	-- Cave Entrance
+					},
+					["description"] = "In a cave with Nightmare creatures",
 				}),
 				o(240519, {	-- Small Treasure Chest
 					["questID"] = 38893,

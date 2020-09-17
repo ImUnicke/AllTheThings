@@ -1023,6 +1023,7 @@ _.NeverImplemented =
 		q(45533),	-- Legion Dungeon Reward Quest
 		q(44437),	-- Legion Sungeon Reward quest (Wrath of Azshara)
 		q(38305),	-- Cenarius, Keeper of the Grove — unused version of quest 40122
+		q(38666),	-- Triggered with obtaining Grumpy via QuestID 39015 on Horde Shaman @ lvl 120
 		q(37526),	-- Farondis Murder Flag — triggers between turning in "The Tidestone: Shattered" and starting "Save Yourself" in Azsuna
 		q(41891),	-- Tainted Growth — got credit for this when turning in 38684, "Reading the Leaves"
 		q(43510),	-- Seal of Fate: Class Hall. Weekly quest, various sources

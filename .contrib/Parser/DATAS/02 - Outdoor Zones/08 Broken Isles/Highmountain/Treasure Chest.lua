@@ -77,7 +77,11 @@ _.Zones =
 				}),
 				o(245601, {	-- Small Treasure Chest
 					["questID"] = 40508,
-					["coord"] = { 60.5, 54.7, 657 },
+					["coords"] = { 
+						{ 60.5, 54.7, 657 },
+						{ 44.9, 72.2, 650 },	-- Cave Entrance
+					},
+					["description"] = "In the 'Path of Huln' cave",
 				}),
 				o(245603, {	-- Small Treasure Chest
 					["questID"] = 40510,
